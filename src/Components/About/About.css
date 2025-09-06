@@ -1,0 +1,77 @@
+.about {
+  padding: 80px 20px;
+  text-align: center;
+  background: #1a001f;
+  color: #e0b3ff;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #c77dff;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 1.5rem;
+  color: #d6d6d6;
+}
+
+.about-text span {
+  color: #c77dff;
+  font-weight: bold;
+}
+
+.about h3 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #c77dff;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.skills li {
+  background: #2e003e;
+  color: #e0b3ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.skills li:hover {
+  background: #c77dff;
+  color: black;
+  transform: scale(1.1);
+}
+/* About.css */
+.resume-download {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background: linear-gradient(90deg, #c77dff, #39ffca);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 1.5em;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 2px 12px #c77dff33;
+}
+
+.resume-btn:hover {
+  background: linear-gradient(90deg, #39ffca, #c77dff);
+  transform: scale(1.05);
+  color: #fff;
+}
