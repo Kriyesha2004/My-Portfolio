@@ -136,3 +136,39 @@
   50% { transform: translateY(-12px); }
   100% { transform: translateY(0); }
 }
+.hero-content {
+  padding: 4rem 1rem;
+  max-width: 900px;
+}
+
+.hero-name .intro {
+  font-size: 2.5rem;
+}
+.hero-name .name {
+  font-size: 4rem;
+}
+
+@media (max-width: 900px) {
+  .hero-content {
+    padding: 2rem 0.5rem;
+    max-width: 98vw;
+  }
+  .hero-name .intro {
+    font-size: 2rem;
+  }
+  .hero-name .name {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-content {
+    padding: 1.2rem 0.2rem;
+  }
+  .hero-name .intro {
+    font-size: 1.3rem;
+  }
+  .hero-name .name {
+    font-size: 1.7rem;
+  }
+}

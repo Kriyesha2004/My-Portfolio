@@ -4,3 +4,14 @@
   background: #1a1a1a;
   color: white;
 }
+.end-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .end-section {
+    padding: 15px 2px;
+    font-size: 0.95rem;
+  }
+}

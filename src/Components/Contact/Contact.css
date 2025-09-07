@@ -25,3 +25,30 @@
 .contact a:hover {
   color: #9d4edd;
 }
+.contact-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .contact-section {
+    padding: 30px 8px;
+    max-width: 98vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 15px 2px;
+  }
+  .contact-form {
+    gap: 0.7rem;
+  }
+}
