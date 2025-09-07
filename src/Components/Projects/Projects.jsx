@@ -7,7 +7,7 @@ import { FiExternalLink } from "react-icons/fi";
 const projectList = [
   {
     title: "CarePoint",
-    duration: "2024 – Present",
+    duration: "2025 – Present",
     role: "Team Lead / Full Stack",
     desc: `A digital mental health platform designed for Sri Lankan youth. 
     Features include journaling (PowerPoint-style editor with stickers/fonts), 
@@ -18,7 +18,7 @@ const projectList = [
   },
   {
     title: "FitZone",
-    duration: "2024",
+    duration: "2025",
     role: "Frontend Developer",
     desc: `A digital fitness platform offering personalized workout plans, exercise tracking, 
     and nutrition guidance to help users achieve fitness goals effectively.`,
@@ -28,7 +28,7 @@ const projectList = [
   },
   {
     title: "Hotel & Booking Systems",
-    duration: "2024",
+    duration: "2025",
     role: "Full Stack",
     desc: `Developed case studies for booking systems such as hotel/room booking, flight booking, 
     doctor appointments, online checkout, and student registration.`,
@@ -38,7 +38,7 @@ const projectList = [
   },
   {
     title: "The Gadget Hub",
-    duration: "2024",
+    duration: "2025",
     role: "Full Stack / SOC Developer",
     desc: `A Service-Oriented Computing project for e-commerce. 
     Distributors manage quotations, while admins/customers handle orders, carts, and inventory. 
@@ -49,7 +49,7 @@ const projectList = [
   },
   {
     title: "Pet Shop",
-    duration: "2023",
+    duration: "2024",
     role: "Developer",
     desc: `A C++ based system for managing a small pet store with features to buy and track pet items. 
     Demonstrates object-oriented concepts such as inheritance, polymorphism, and abstraction.`,
@@ -59,7 +59,7 @@ const projectList = [
   },
   {
     title: "Automobile Data Analysis",
-    duration: "2023",
+    duration: "2025",
     role: "Data Analyst",
     desc: `A business analysis project for the Ministry of Transport, Sri Lanka. 
     Explored automobile datasets to recommend suitable vehicle types for the country’s road network.`,
