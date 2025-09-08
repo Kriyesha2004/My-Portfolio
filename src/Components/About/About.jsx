@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./About.css";
-import resumePDF from "../../assets/CV -  P.D. Chathumi Kriyesha.pdf";
+import resumePDF from "../../assets/Chathumi_Kriyesha_CV.pdf";
 
 const About = () => {
   return (
