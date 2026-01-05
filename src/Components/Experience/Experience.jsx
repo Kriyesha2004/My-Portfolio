@@ -29,7 +29,7 @@ const Experience = () => {
                     <div className="experience-content">
                         <h3>Fullstack Developer Intern</h3>
                         <h4>QT_labX</h4>
-                        <span className="duration">December 2025 – January 2026</span>
+                        <span className="duration">October 2025 – January 2026</span>
                         <p>
                             Gained hands-on experience as a Full-Stack Developer during a three-month internship, contributing to the development and maintenance of scalable web applications. Worked extensively with React on the frontend and NestJS with MongoDB on the backend to build efficient, well-structured solutions. Applied basic AI prompting techniques to support development workflows and enhance productivity. Collaborated closely with cross-functional team members, gaining strong teamwork, communication, and problem-solving skills in an agile development environment.
                         </p>
