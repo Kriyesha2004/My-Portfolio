@@ -6,6 +6,15 @@ import { FiExternalLink } from "react-icons/fi";
 
 const projectList = [
   {
+    title: "MACHINE ACTIVITY TRACKING SYSTEM",
+    duration: "2026 – Present",
+    role: "Full Stack Developer",
+    desc: `Ongoing project. An ERP system for machine maintenance and tracking, featuring detailed logs and condition monitoring.`,
+    tech: ["React", "NestJS", "MongoDB", "TypeScript"],
+    code: "https://github.com/Kriyesha2004/MACHINE_ACTIVITY_TRACKING_SYSTEM_NEW",
+    live: "#",
+  },
+  {
     title: "CarePoint",
     duration: "2025 – Present",
     role: "Team Lead / Full Stack",

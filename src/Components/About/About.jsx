@@ -52,6 +52,8 @@ const About = () => {
         <li>PHP</li>
         <li>React.js</li>
         <li>Node.js</li>
+        <li>Nest.js</li>
+        <li>MongoDB </li>
       </motion.ul>
 
       <motion.div
