@@ -27,11 +27,15 @@ const Experience = () => {
                         <FaBriefcase />
                     </div>
                     <div className="experience-content">
-                        <h3>Fullstack Developer Intern</h3>
+                        <h3>Front End Developer Intern</h3>
                         <h4>QT_labX</h4>
                         <span className="duration">October 2025 – January 2026</span>
                         <p>
-                            Gained hands-on experience as a Full-Stack Developer during a three-month internship, contributing to the development and maintenance of scalable web applications. Worked extensively with React on the frontend and NestJS with MongoDB on the backend to build efficient, well-structured solutions. Applied basic AI prompting techniques to support development workflows and enhance productivity. Collaborated closely with cross-functional team members, gaining strong teamwork, communication, and problem-solving skills in an agile development environment.
+                            QT LabX (Internship) – Front end  Developer Intern Octomber 2025 – January 2026 -
+                            Developed and maintained web application features using React.js ,Vite and TypeScript
+                            Built reusable frontend components and integrated Collaborated with senior developers in
+                            an Agile development environment - Gained experience in version control, clean coding
+                            practices, and deployment workflows
                         </p>
                         <div className="experience-actions">
                             {/* Placeholder for future letter/certificate */}
