@@ -4,48 +4,63 @@ import "./Experience.css";
 import { FaBriefcase } from "react-icons/fa";
 
 const Experience = () => {
-    return (
-        <section className="experience" id="experience">
-            <motion.h2
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-            >
-                Experience
-            </motion.h2>
+  const experiences = [
+    {
+      id: 1,
+      title: "Full-Stack Developer Intern",
+      company: "Courtaulds Clothing Lanka (Pvt) Ltd",
+      duration: "March 2026 – Present",
+      description:
+        "Contributing to enterprise web applications by developing responsive frontend interfaces using Angular and TypeScript. Designing and implementing backend RESTful APIs using .NET Core and C#. Managing relational databases with SQL Server Management Studio (SSMS), documenting APIs with Swagger, and collaborating with the IT department to deliver production-ready solutions.",
+    },
+    {
+      id: 2,
+      title: "Front End Developer Intern",
+      company: "QT LabX",
+      duration: "October 2025 – January 2026",
+      description:
+        "Developed and maintained web application features using React.js, Vite, and TypeScript. Built reusable frontend components and collaborated with senior developers in an Agile development environment. Gained hands-on experience in version control, clean coding practices, and deployment workflows.",
+    },
+  ];
 
-            <div className="experience-container">
-                <motion.div
-                    className="experience-card"
-                    initial={{ opacity: 0, x: -50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    viewport={{ once: true }}
-                >
-                    <div className="experience-icon">
-                        <FaBriefcase />
-                    </div>
-                    <div className="experience-content">
-                        <h3>Front End Developer Intern</h3>
-                        <h4>QT_labX</h4>
-                        <span className="duration">October 2025 – January 2026</span>
-                        <p>
-                            QT LabX (Internship) – Front end  Developer Intern Octomber 2025 – January 2026 -
-                            Developed and maintained web application features using React.js ,Vite and TypeScript
-                            Built reusable frontend components and integrated Collaborated with senior developers in
-                            an Agile development environment - Gained experience in version control, clean coding
-                            practices, and deployment workflows
-                        </p>
-                        <div className="experience-actions">
-                            {/* Placeholder for future letter/certificate */}
+  return (
+    <section className="experience" id="experience">
+      <motion.h2
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        Experience
+      </motion.h2>
 
-                        </div>
-                    </div>
-                </motion.div>
+      <div className="experience-container">
+        {experiences.map((exp, index) => (
+          <motion.div
+            key={exp.id}
+            className="experience-card"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: index * 0.2 }}
+            viewport={{ once: true }}
+          >
+            <div className="experience-icon">
+              <FaBriefcase />
             </div>
-        </section>
-    );
+            <div className="experience-content">
+              <h3>{exp.title}</h3>
+              <h4>{exp.company}</h4>
+              <span className="duration">{exp.duration}</span>
+              <p>{exp.description}</p>
+              <div className="experience-actions">
+                {/* Placeholder for future letter/certificate */}
+              </div>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Experience;
