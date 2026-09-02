@@ -9,7 +9,7 @@ const Experience = () => {
       id: 1,
       title: "Full-Stack Developer Intern",
       company: "Courtaulds Clothing Lanka (Pvt) Ltd",
-      duration: "March 2026 – Present",
+      duration: "March 2026 – September 2026",
       description:
         "Contributing to enterprise web applications by developing responsive frontend interfaces using Angular and TypeScript. Designing and implementing backend RESTful APIs using .NET Core and C#. Managing relational databases with SQL Server Management Studio (SSMS), documenting APIs with Swagger, and collaborating with the IT department to deliver production-ready solutions.",
     },
