@@ -6,8 +6,16 @@ import { FiExternalLink } from "react-icons/fi";
 
 const projectList = [
   {
+    title: "CLINOVA",
+    duration: "2026",
+    role: "Full Stack Developer",
+    desc: `An AI-powered dengue outbreak prediction and monitoring system that uses environmental and historical dengue data to predict outbreak risk and visualize insights through an interactive dashboard.`, tech: ["React", "Node.js", "Python", "FastAPI", "Random Forest", "MongoDB"],
+    code: "https://github.com/Kriyesha2004/Clinova.git",
+    live: "#",
+  },
+  {
     title: "MACHINE ACTIVITY TRACKING SYSTEM",
-    duration: "2026 – Present",
+    duration: "2026",
     role: "Full Stack Developer",
     desc: `Ongoing project. An ERP system for machine maintenance and tracking, featuring detailed logs and condition monitoring.`,
     tech: ["React", "NestJS", "MongoDB", "TypeScript"],
