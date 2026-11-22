@@ -1,17 +1,26 @@
 .footer {
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
-  background: #1a1a1a;
-  color: white;
+  background: #20051B;
+  color: #DDE3E8;
+  border-top: 1px solid rgba(221, 227, 232, 0.1);
+  font-size: 1rem;
 }
+
+.footer-brand {
+  color: #EAAA00;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
 .end-section {
   padding: 40px 20px;
   text-align: center;
 }
 
 @media (max-width: 600px) {
-  .end-section {
-    padding: 15px 2px;
-    font-size: 0.95rem;
+  .footer {
+    padding: 20px 10px;
+    font-size: 0.9rem;
   }
 }

@@ -4,7 +4,7 @@ import "./End_page.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} Kriyesha | All Rights Reserved</p>
+      <p>© {new Date().getFullYear()} <span className="footer-brand">Kriyesha</span> | All Rights Reserved</p>
     </footer>
   );
 };

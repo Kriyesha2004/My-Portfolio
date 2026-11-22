@@ -1,19 +1,65 @@
-*{
-  margin: 0;
-  padding: 0;
+:root {
+  --color-light: #DDE3E8;
+  --color-plum: #3A0F34;
+  --color-gold: #EAAA00;
+  --color-plum-dark: #270823;
+  --color-plum-surface: #491341;
+  --color-gold-hover: #ffbf1a;
+  --color-gold-glow: rgba(234, 170, 0, 0.35);
+  --color-light-muted: rgba(221, 227, 232, 0.75);
+  --color-light-faint: rgba(221, 227, 232, 0.15);
+}
 
-}
-body{
-  height: 100vh;
-  background:#9d4edd;
-  color: aliceblue;
-  font-family: 'Outfit', sans-serif
-}
-/* Universal box-sizing and responsive images */
+/* Universal box-sizing and responsive defaults */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  background-color: var(--color-plum);
+  color: var(--color-light);
+  min-height: 100vh;
+  min-width: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Selection */
+::selection {
+  background: var(--color-gold);
+  color: var(--color-plum);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-plum-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 5px;
+  border: 2px solid var(--color-plum-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-hover);
 }
 
 img,
@@ -21,20 +67,4 @@ svg {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-/* Body base font and background */
-body {
-  font-size: 16px;
-  background: #0f001a;
-  margin: 0;
-  padding: 0;
-  min-width: 0;
-  overflow-x: hidden;
-}
-
-/* Remove horizontal scroll on mobile */
-html, body {
-  max-width: 100vw;
-  overflow-x: hidden;
 }
